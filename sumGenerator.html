@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./world cup website/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./world cup website/node_modules/bootstrap/dist/js/bootstrap.min.css">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <title>sum generator</title>
+</head>
+<body>
+    <div id="app" class="d-flex flex-column justify-content-center w-0 align-items-center mt-5">
+        <div class="d-flex">
+            <input type="text" id="num1" value="0" class="m-1">
+            <input type="text" id="num2" value="0" class="m-1">
+        </div>
+        <button onclick="sum()" class="btn bg-primary mt-2 border-0 text-bg-success">get total</button>
+        <hr>
+        <button onclick="reset()" class="btn bg-primary border-0 text-bg-success">set to zero</button>
+        <hr>
+        <h4 id="total">the total is: 0</h4>
+    </div>
+    <script src="./sumGenerator.js"></script>
+</body>
+</html>
